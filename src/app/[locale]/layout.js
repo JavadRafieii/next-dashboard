@@ -3,6 +3,8 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/src/i18n/routing';
 
+import "../globals.css";
+
 export default async function LocaleLayout({ children, params }) {
   // Ensure that the incoming `locale` is valid
   const { locale } = await params;
@@ -15,7 +17,7 @@ export default async function LocaleLayout({ children, params }) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === "fa" ? 'rtl' : 'ltr'}>
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}
