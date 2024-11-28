@@ -1,4 +1,26 @@
 {
+    "Authenticate": {
+        "title": "خوش آمدید",
+        "fullName": "نام و نام خانوادگی",
+        "email": "آدرس ایمیل",
+        "password": "رمز عبور",
+        "register": "ثبت نام کنید",
+        "login": "ورود به سیستم",
+        "createMode": "یک حساب کاربری جدید ایجاد کنید.",
+        "loginMode": "با حساب موجود وارد شوید.",
+        "requiredName": "وارد کردن نام کامل الزامی است.",
+        "minlengthName": "نام کامل باید حداقل ۴ کاراکتر باشد.",
+        "requiredEmail": "وارد کردن ایمیل الزامی است.",
+        "patternEmail": "لطفاً یک ایمیل معتبر وارد کنید.",
+        "requiredPassword": "وارد کردن رمز عبور الزامی است.",
+        "minlengthPassword": "رمز عبور باید حداقل ۸ کاراکتر باشد.",
+        "patternPassword": "رمز عبور باید شامل حروف، اعداد و یک کاراکتر خاص باشد.",
+        "serverSideErrorRegisteredEmail": "این ایمیل قبلا ثبت شده است. لطفا از ایمیل دیگری استفاده کنید.",
+        "serverSideError": "خطایی رخ داد. لطفاً بعداً دوباره امتحان کنید.",
+        "serverSideErrorNoUser": "کاربر وجود ندارد.",
+        "serverSideErrorPasswordNotValid": "رمز عبور معتبر نیست.",
+         "loadingText": "در حال بارگذاری..."
+    },
     "HomePage": {
         "title": "سلام دنیا!"
     }

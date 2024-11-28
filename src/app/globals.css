@@ -91,3 +91,7 @@
         src: url('./fonts/Iransans/IranSans_Black.ttf');
     }
 }
+
+.bg-main {
+    background-image: url(../../public/images/main-background.png);
+}

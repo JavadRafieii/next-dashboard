@@ -18,7 +18,7 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale} dir={locale === "fa" ? 'rtl' : 'ltr'}>
-      <body>
+      <body className='bg-main bg-cover bg-no-repeat'>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

@@ -1,4 +1,26 @@
 {
+    "Authenticate": {
+        "title": "Welcome",
+        "fullName": "Full Name",
+        "email": "E-mail Address",
+        "password": "Password",
+        "register": "Register",
+        "login": "Login",
+        "createMode": "Create a new account.",
+        "loginMode": "Login with existing account.",
+        "requiredName": "Entering your full name is required.",
+        "minlengthName": "The full name must be at least 4 characters long.",
+        "requiredEmail": "Entering an email is required.",
+        "patternEmail": "Please enter a valid email.",
+        "requiredPassword": "Entering a password is required.",
+        "minlengthPassword": "The password must be at least 8 characters long.",
+        "patternPassword": "The password must contain letters, numbers, and one special character.",
+        "serverSideErrorRegisteredEmail": "This email is already registered. Please use another email.",
+        "serverSideError": "An error occurred. Please try again later.",
+        "serverSideErrorNoUser": "User does not exist.",
+        "serverSideErrorPasswordNotValid": "The password is not valid.",
+        "loadingText": "Loading..."
+    },
     "HomePage": {
         "title": "Hello world!"
     }

@@ -6,6 +6,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+      }
+    },
     fontFamily: {
       'Roboto-Thin': 'Roboto-Thin',
       'Roboto-Light': 'Roboto-Light',
@@ -19,6 +25,24 @@ module.exports = {
       'IranSans-Medium': 'IranSans-Medium',
       'IranSans-Bold': 'IranSans-Bold',
       'IranSans-Black': 'IranSans-Black',
+    },
+    extend: {
+      backgroundImage: {
+        'main-gradient': 'linear-gradient(45deg, #29323c, #485563)',
+      },
+      colors: {
+        'boxes': '#0003',
+        'boxes-line': '#ffffff26',
+        'inputs': '#00000026',
+        'inputs-line': '#ffffff26',
+        'buttons': '#ffffff26',
+        'buttons-line': '#ffffff59',
+        'buttons-hover': '#fff3',
+        'line': '#ffffff26',
+      },
+      boxShadow: {
+        'inputs-shadow': '0 0 0 .25rem rgba(255, 255, 255, .25)',
+      }
     },
   },
   plugins: [],
