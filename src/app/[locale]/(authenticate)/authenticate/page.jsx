@@ -1,19 +1,25 @@
-import { getTranslations } from 'next-intl/server';
+import Image from 'next/image';
 
 import Form from '@/src/components/form';
+
+import Logo from "@/public/images/logo.png"
 
 export default async function AuthenticatePage({ params, searchParams }) {
     const { locale } = await params;
     const { mode } = await searchParams;
 
-    const t = await getTranslations('Authenticate');
-
     return (
         <section className="h-[100vh] container flex items-center justify-center">
             <div className="bg-boxes border border-boxes-line w-full max-w-96 mx-auto py-10 px-5 rounded-lg">
-                <h1 className={`${locale === "en" ? 'font-Roboto-Light' : 'font-IranSans-Light'} text-3xl text-white text-center mb-10`}>
-                    {t('title')}
-                </h1>
+                <div className='flex justify-center mb-10'>
+                    <Image
+                        src={Logo}
+                        alt='Logo'
+                        width={50}
+                        height={50}
+                        priority
+                    />
+                </div>
                 <Form locale={locale} mode={mode} />
             </div>
         </section>

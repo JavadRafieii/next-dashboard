@@ -1,6 +1,5 @@
 {
     "Authenticate": {
-        "title": "خوش آمدید",
         "fullName": "نام و نام خانوادگی",
         "email": "آدرس ایمیل",
         "password": "رمز عبور",

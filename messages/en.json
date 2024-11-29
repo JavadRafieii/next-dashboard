@@ -1,6 +1,5 @@
 {
     "Authenticate": {
-        "title": "Welcome",
         "fullName": "Full Name",
         "email": "E-mail Address",
         "password": "Password",
