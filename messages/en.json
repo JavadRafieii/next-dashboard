@@ -21,6 +21,10 @@
         "serverSideErrorPasswordNotValid": "The password is not valid.",
         "loadingText": "Loading..."
     },
+    "ToggleLanguages": {
+        "unitedStatesLanguage": "English",
+        "IranLanguage": "Persian"
+    },
     "HomePage": {
         "title": "Hello world!"
     }

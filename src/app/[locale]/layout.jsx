@@ -5,7 +5,7 @@ import { routing } from '@/src/i18n/routing';
 
 import "../globals.css";
 
-export default async function LocaleLayout({ children, params }) {
+export default async function RootLayout({ children, params }) {
   // Ensure that the incoming `locale` is valid
   const { locale } = await params;
   if (!routing.locales.includes(locale)) {

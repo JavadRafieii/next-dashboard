@@ -21,6 +21,10 @@
         "serverSideErrorPasswordNotValid": "رمز عبور معتبر نیست.",
          "loadingText": "در حال بارگذاری..."
     },
+    "ToggleLanguages": {
+        "unitedStatesLanguage": "انگلیسی",
+        "IranLanguage": "فارسی"
+    },
     "HomePage": {
         "title": "سلام دنیا!"
     }
