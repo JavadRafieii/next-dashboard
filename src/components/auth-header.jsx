@@ -19,7 +19,7 @@ export default function AuthHeader() {
                         />
                     </div>
                     <div className="flex items-center justify-end">
-                        <ToggleLanguage />
+                        <ToggleLanguage path="/authenticate"/>
                     </div>
                 </div>
             </section>

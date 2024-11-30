@@ -1,33 +1,20 @@
 'use client'
 
-import { usePathname } from 'next/navigation'
 import Image from "next/image";
-
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from "../i18n/routing";
-
 import { useState } from "react";
-
 import Iran from "@/public/images/iran-flag.png";
 import Amrica from "@/public/images/amrica-flag.png";
 
-export default function ToggleLanguage() {
-    const pathname = usePathname();
+export default function ToggleLanguage({ path }) {
     const locale = useLocale();
     const t = useTranslations('ToggleLanguages');
     const [isOpenToggleLanguages, setIsOpenToggleLanguages] = useState(false);
 
-    function extractFromLastSlash() {
-        const lastSlashIndex = pathname.lastIndexOf('/');
-        if (lastSlashIndex === -1) {
-            return '';
-        }
-        return pathname.substring(lastSlashIndex);
-    }
-
     const LANGUAGES = [
-        { id: "Amrica", icon: Amrica, text: t('unitedStatesLanguage'), href: extractFromLastSlash(), locale: "en" },
-        { id: "Iran", icon: Iran, text: t('IranLanguage'), href: extractFromLastSlash(), locale: "fa" },
+        { id: "Amrica", icon: Amrica, text: t('unitedStatesLanguage'), href: path, locale: "en" },
+        { id: "Iran", icon: Iran, text: t('IranLanguage'), href: path, locale: "fa" },
     ];
 
     function handleToggleLanguages() {

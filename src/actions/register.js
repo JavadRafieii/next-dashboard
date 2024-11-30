@@ -1,13 +1,9 @@
 'use server'
 
 import { getTranslations } from 'next-intl/server';
-
 import supabase from "../supabase/supabase.config";
-
 import { hashPassword } from '../lib/hashPassword';
-
 import { generateToken, setCookie } from '../lib/cookie';
-
 import { redirect } from 'next/navigation';
 
 export default async function registerUser(formData, locale) {

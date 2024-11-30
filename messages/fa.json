@@ -24,7 +24,7 @@
         "unitedStatesLanguage": "انگلیسی",
         "IranLanguage": "فارسی"
     },
-    "HomePage": {
-        "title": "سلام دنیا!"
+    "Header": {
+        "logout": "خروج از سیستم"
     }
 }

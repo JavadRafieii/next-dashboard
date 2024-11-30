@@ -24,7 +24,7 @@
         "unitedStatesLanguage": "English",
         "IranLanguage": "Persian"
     },
-    "HomePage": {
-        "title": "Hello world!"
+    "Header": {
+        "logout": "Logout"
     }
 }
