@@ -27,7 +27,7 @@ export default function ToggleLanguage({ path }) {
                 <Image src={locale === "en" ? Amrica : Iran} alt="Flag" fill sizes='24px' />
             </div>
             {isOpenToggleLanguages && (
-                <ul className={`${locale === "en" ? 'right-0' : 'left-0'} absolute top-12 w-fit py-3 bg-dark-boxes rounded-lg`}>
+                <ul className={`${locale === "en" ? 'right-0' : 'left-0'} absolute z-50 top-12 w-fit py-3 bg-dark-boxes rounded-lg`}>
                     {LANGUAGES.map(language => (
                         <li key={language.id} className={`${locale === language.locale ? 'bg-dark-boxes-hover' : null} px-3 py-1 cursor-pointer hover:bg-dark-boxes-hover`}>
                             <Link href={language.href} locale={language.locale}>

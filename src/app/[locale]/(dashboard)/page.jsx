@@ -1,5 +1,6 @@
 import { getCookie } from '@/src/lib/cookie';
 import { redirect } from 'next/navigation';
+import FirstRow from './components/first-row/first-row';
 
 export default async function HomePage({ params }) {
   const { locale } = await params;
@@ -8,6 +9,10 @@ export default async function HomePage({ params }) {
   if (!token) {
     redirect("/authenticate");
   }
-  
-  return null;
+
+  return (
+    <section className='p-5'>
+      <FirstRow />
+    </section>
+  );
 }

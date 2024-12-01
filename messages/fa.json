@@ -17,8 +17,7 @@
         "serverSideErrorRegisteredEmail": "این ایمیل قبلا ثبت شده است. لطفا از ایمیل دیگری استفاده کنید.",
         "serverSideError": "خطایی رخ داد. لطفاً بعداً دوباره امتحان کنید.",
         "serverSideErrorNoUser": "کاربر وجود ندارد.",
-        "serverSideErrorPasswordNotValid": "رمز عبور معتبر نیست.",
-         "loadingText": "در حال بارگذاری..."
+        "serverSideErrorPasswordNotValid": "رمز عبور معتبر نیست."
     },
     "ToggleLanguages": {
         "unitedStatesLanguage": "انگلیسی",
@@ -26,5 +25,13 @@
     },
     "Header": {
         "logout": "خروج از سیستم"
+    },
+    "StandingMenu": {
+        "firstPage": "تجارت الکترونیک"
+    },
+    "LineChartA": {
+        "title": "عنوان نمودار",
+        "price": "۲۴,۰۰۰",
+        "description": "از هفته گذشته"
     }
 }

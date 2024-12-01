@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { useTranslations } from 'next-intl';
-import { useLocale } from "next-intl";
+import { useTranslations, useLocale } from 'next-intl';
 import AvatarImage from "@/public/images/avatar.jpeg";
 import { TbLogout2 } from "react-icons/tb";
 import logoutUser from "../actions/logout";

@@ -17,8 +17,7 @@
         "serverSideErrorRegisteredEmail": "This email is already registered. Please use another email.",
         "serverSideError": "An error occurred. Please try again later.",
         "serverSideErrorNoUser": "User does not exist.",
-        "serverSideErrorPasswordNotValid": "The password is not valid.",
-        "loadingText": "Loading..."
+        "serverSideErrorPasswordNotValid": "The password is not valid."
     },
     "ToggleLanguages": {
         "unitedStatesLanguage": "English",
@@ -26,5 +25,13 @@
     },
     "Header": {
         "logout": "Logout"
+    },
+    "StandingMenu": {
+        "firstPage": "eCommerce"
+    },
+    "LineChartA": {
+        "title": "Title Chart",
+        "price": "24,000",
+        "description": "Since last week"
     }
 }
