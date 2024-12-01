@@ -2,12 +2,11 @@
 
 import React, { useEffect, useRef } from 'react';
 import ApexCharts from 'apexcharts';
-import { useTranslations, useLocale } from 'next-intl';
-import { BsFillBasket3Fill } from "react-icons/bs";
-import { IoMdArrowDropup } from "react-icons/io";
+import { useLocale } from 'next-intl';
+import WidgetType1 from '../widgets/widget-type-1';
+import WidgetType3 from '../widgets/widget-type-3';
 
 export default function LineChartA() {
-    const t = useTranslations('LineChartA');
     const locale = useLocale();
     const chartRef = useRef(null);
 
@@ -113,8 +112,7 @@ export default function LineChartA() {
                     fillColors: ['#FFFFFF'],
                 },
                 style: {
-                    fontSize: "12px",
-                    // fontFamily: "Arial",
+                    fontFamily: locale === "en" ? 'Roboto-Medium' : 'IranSans-Medium',
                 },
                 custom: function ({ series, seriesIndex, dataPointIndex, w }) {
                     const value = series[seriesIndex][dataPointIndex];
@@ -137,14 +135,8 @@ export default function LineChartA() {
     return (
         <div className='bg-boxes p-5 pb-0 rounded-lg'>
             <div className='flex items-center justify-between'>
-                <div>
-                    <h4 className={`${locale === "en" ? 'font-Roboto-Light' : 'font-IranSans-Light'} text-text text-base`}>{t('title')}</h4>
-                    <p className={`${locale === "en" ? 'font-Roboto-Bold' : 'font-IranSans-Bold'} text-white text-2xl`}>${t('price')}</p>
-                    <p className={`${locale === "en" ? 'font-Roboto-Light' : 'font-IranSans-Light'} text-text text-sm flex items-center`}><IoMdArrowDropup className='text-lg'/> 14% {t('description')}</p>
-                </div>
-                <div className='w-[50px] h-[50px] bg-light-boxes rounded-xl flex items-center justify-center'>
-                    <BsFillBasket3Fill className='text-white text-2xl' />
-                </div>
+                <WidgetType1 />
+                <WidgetType3 />
             </div>
             <div id="chart" ref={chartRef}></div>
         </div>

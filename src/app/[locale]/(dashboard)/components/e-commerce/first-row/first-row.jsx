@@ -1,4 +1,4 @@
-import LineChartA from "@/src/components/line-charts/line-chart-a";
+import LineChartA from "@/src/components/charts/line-chart/line-chart";
 
 export default function FirstRow() {
     return (

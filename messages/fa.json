@@ -29,7 +29,20 @@
     "StandingMenu": {
         "firstPage": "تجارت الکترونیک"
     },
-    "LineChartA": {
+    "WidgetType1": {
+        "title": "ابزارک ها",
+        "price": "۷۸,۲۴۰",
+        "description": "از هفته گذشته"
+    },
+    "WidgetType2": {
+        "title": "ابزارک ها",
+        "description": "درآمد ۳۰ روز گذشته"
+    },
+    "BasicColumnChart": {
+        "nameOne": "ستون ۱",
+        "nameTwo": "ستون ۲",
+        "nameThree": "ستون ۳",
+        "subTitle": "زیرنویس",
         "title": "عنوان نمودار",
         "price": "۲۴,۰۰۰",
         "description": "از هفته گذشته"

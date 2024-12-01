@@ -11,7 +11,7 @@ export default function DashboardLayout({ children }) {
                 <div className={`${locale === "en" ? 'border-r' : 'border-l'} w-[250px] h-[100vh] bg-boxes border-boxes-line`}>
                     <StandingMenu />
                 </div>
-                <div className="w-[calc(100%-250px)] h-[100vh]">
+                <div className="w-[calc(100%-250px)]">
                     <MainHeader />
                     {children}
                 </div>
