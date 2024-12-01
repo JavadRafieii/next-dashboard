@@ -1,7 +1,5 @@
 import Image from "next/image";
-
-import ToggleLanguage from "./toggle-language";
-
+import ToggleLanguage from "../toggle-language";
 import Logo from "@/public/images/logo.png";
 
 export default function AuthHeader() {

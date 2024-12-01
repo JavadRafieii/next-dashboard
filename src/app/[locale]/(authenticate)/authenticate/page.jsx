@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import Form from '@/src/components/form';
+import Form from '@/src/components/forms/form';
 
 import Logo from "@/public/images/logo.png"
 

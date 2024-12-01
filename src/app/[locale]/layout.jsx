@@ -3,8 +3,6 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/src/i18n/routing';
 
-import MainHeader from '@/src/components/main-header';
-
 import "../globals.css";
 
 export default async function RootLayout({ children, params }) {

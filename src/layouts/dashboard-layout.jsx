@@ -1,6 +1,6 @@
 import { useLocale } from "next-intl";
 
-import MainHeader from "../components/main-header";
+import MainHeader from "../components/headers/main-header";
 import StandingMenu from "../components/standing-menu";
 
 export default function DashboardLayout({ children }) {

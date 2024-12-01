@@ -3,11 +3,11 @@
 import { useState } from 'react';
 
 import { useTranslations } from 'next-intl';
-import { Link } from '../i18n/routing';
+import { Link } from '../../i18n/routing';
 
 import { useForm } from "react-hook-form";
 
-import auth from '../actions/auth';
+import auth from '../../actions/auth';
 
 import { ClipLoader } from 'react-spinners';
 

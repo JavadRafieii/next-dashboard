@@ -1,7 +1,6 @@
 import { useLocale } from "next-intl";
-
-import Avatar from "./avatar";
-import ToggleLanguage from "./toggle-language";
+import Avatar from "../avatar";
+import ToggleLanguage from "../toggle-language";
 
 export default function MainHeader() {
     const locale = useLocale();
