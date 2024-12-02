@@ -46,5 +46,12 @@
         "title": "Title Chart",
         "price": "24,000",
         "description": "Since last week"
+    },
+    "PolarAreaChart": {
+        "a": "Text A",
+        "b": "Text B",
+        "c": "Text C",
+        "d": "Text D",
+        "e": "Text E"
     }
 }

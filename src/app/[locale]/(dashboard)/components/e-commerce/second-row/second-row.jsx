@@ -1,4 +1,5 @@
-import BasicColumnChart from "@/src/components/charts/basic-column-chart/basic-column-chart"
+import BasicColumnChart from "@/src/components/charts/basic-column-chart/basic-column-chart";
+import PolarAreaChart from "@/src/components/charts/polar-area-chart/polar-area-chart";
 
 export default function SecondRow() {
     return (
@@ -6,7 +7,9 @@ export default function SecondRow() {
             <div>
                 <BasicColumnChart />
             </div>
-            <div></div>
+            <div>
+                <PolarAreaChart />
+            </div>
         </div>
     )
 }
