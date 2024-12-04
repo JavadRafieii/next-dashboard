@@ -2,12 +2,13 @@
 
 import React, { useEffect, useRef } from 'react';
 import ApexCharts from 'apexcharts';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import WidgetType1 from '../widgets/widget-type-1';
 import WidgetType3 from '../widgets/widget-type-3';
 
-export default function LineChartA() {
+export default function LineChart() {
     const locale = useLocale();
+    const t = useTranslations('LineChart');
     const chartRef = useRef(null);
 
     useEffect(() => {
@@ -21,7 +22,7 @@ export default function LineChartA() {
             //     },
             // },
             series: [{
-                name: 'LineChartA',
+                name: t('name'),
                 data: [10, -50, 55, -10, 32, -45, 50, -50, 100]
             }],
             chart: {
@@ -114,13 +115,6 @@ export default function LineChartA() {
                 style: {
                     fontFamily: locale === "en" ? 'Roboto-Medium' : 'IranSans-Medium',
                 },
-                custom: function ({ series, seriesIndex, dataPointIndex, w }) {
-                    const value = series[seriesIndex][dataPointIndex];
-                    if (dataPointIndex === 'bottom') {
-                        return null;
-                    }
-                    return `<div class="custom-tooltip p-3">${value}</div>`;
-                }
             },
         };
 

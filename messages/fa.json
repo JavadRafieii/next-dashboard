@@ -32,8 +32,7 @@
         "comingSoon": "به زودی..."
     },
 
-
-
+    
     "WidgetType1": {
         "title": "ابزارک ها",
         "price": "۷۸,۲۴۰",
@@ -52,6 +51,9 @@
 
 
 
+    "LineChart": {
+        "name": "متن الف"
+    },
     "BasicColumnChart": {
         "nameOne": "ستون ۱",
         "nameTwo": "ستون ۲",

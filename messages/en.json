@@ -51,7 +51,9 @@
     },
 
 
-
+    "LineChart": {
+        "name": "Text A"
+    },
     "BasicColumnChart": {
         "nameOne": "Column 1",
         "nameTwo": "Column 2",
