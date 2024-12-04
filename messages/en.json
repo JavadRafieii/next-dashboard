@@ -31,6 +31,9 @@
         "firstPage": "eCommerce",
         "comingSoon": "Coming Soon..."
     },
+
+
+
     "WidgetType1": {
         "title": "Widgets",
         "price": "78,240",
@@ -40,6 +43,15 @@
         "title": "Widgets",
         "description": "in last 30 days revenue"
     },
+    "TopProductCardWidget": {
+        "title": "Light Blue Chair",
+        "price": "$240.00",
+        "totalPrice": "$2140.00",
+        "sales": "345 Sales"
+    },
+
+
+
     "BasicColumnChart": {
         "nameOne": "Column 1",
         "nameTwo": "Column 2",
@@ -55,5 +67,8 @@
         "c": "Text C",
         "d": "Text D",
         "e": "Text E"
+    },
+    "SplineAreaChart": {
+        "name": "Text A"
     }
 }

@@ -18,7 +18,7 @@ export default async function RootLayout({ children, params }) {
 
   return (
     <html lang={locale} dir={locale === "fa" ? 'rtl' : 'ltr'}>
-      <body className='bg-main bg-cover bg-no-repeat'>
+      <body className='bg-main-gradient'>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

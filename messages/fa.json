@@ -31,6 +31,9 @@
         "firstPage": "تجارت الکترونیک",
         "comingSoon": "به زودی..."
     },
+
+
+
     "WidgetType1": {
         "title": "ابزارک ها",
         "price": "۷۸,۲۴۰",
@@ -40,6 +43,15 @@
         "title": "ابزارک ها",
         "description": "درآمد ۳۰ روز گذشته"
     },
+    "TopProductCardWidget": {
+        "title": "صندلی آبی روشن",
+        "price": "$۲۴۰.۰۰",
+        "totalPrice": "$۲۱۴۰.۰۰",
+        "sales": "۳۴۵ فروش"
+    },
+
+
+
     "BasicColumnChart": {
         "nameOne": "ستون ۱",
         "nameTwo": "ستون ۲",
@@ -55,5 +67,8 @@
         "c": "متن پ",
         "d": "متن ت",
         "e": "متن س"
+    },
+    "SplineAreaChart": {
+        "name": "متن الف"
     }
 }

@@ -43,7 +43,7 @@ module.exports = {
         'dark-boxes-hover': '#404040',
         'text': '#ffffffa3',
         'standing-menu-hover': '#ffffff1a',
-        'light-boxes': '#ffffff26',
+        'light-boxes': '#ffffff1f',
       },
       boxShadow: {
         'inputs-shadow': '0 0 0 .25rem rgba(255, 255, 255, .25)',
