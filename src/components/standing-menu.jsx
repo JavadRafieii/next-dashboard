@@ -1,10 +1,10 @@
 'use client'
 
 import { Link } from "../i18n/routing";
-import { useLocale } from "next-intl";
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { BsBasket } from "react-icons/bs";
+import { VscTools } from "react-icons/vsc";
 
 export default function StandingMenu() {
     const locale = useLocale();
@@ -24,9 +24,14 @@ export default function StandingMenu() {
                     className={`flex items-center gap-x-2 w-full px-5 py-2 hover:bg-standing-menu-hover ${isActive("/") ? "bg-standing-menu-hover" : ""
                         }`}
                 >
-                    <BsBasket className="text-lg"/> {t('firstPage')}
+                    <BsBasket className="text-lg" /> {t('firstPage')}
                 </Link>
             </li>
+            {Array.from({ length: 10 }).map((_, index) => (
+                <li key={index} className="flex items-center gap-x-2 w-full px-5 py-2 hover:bg-standing-menu-hover cursor-pointer">
+                    <VscTools className="text-lg"/> {t('comingSoon')}
+                </li>
+            ))}
         </ul>
     );
 }

@@ -27,7 +27,9 @@
         "logout": "Logout"
     },
     "StandingMenu": {
-        "firstPage": "eCommerce"
+        "title": "Dashboard",
+        "firstPage": "eCommerce",
+        "comingSoon": "Coming Soon..."
     },
     "WidgetType1": {
         "title": "Widgets",
