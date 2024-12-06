@@ -29,25 +29,36 @@
     "StandingMenu": {
         "title": "داشبورد",
         "firstPage": "تجارت الکترونیک",
+        "secondPage": "ابزارک‌ها",
         "comingSoon": "به زودی..."
     },
 
-    
-    "WidgetType1": {
+
+
+    "LineChartWidget": {
         "title": "ابزارک ها",
         "price": "۷۸,۲۴۰",
         "description": "از هفته گذشته"
     },
-    "WidgetType2": {
+    "BasicColumnChartWidget": {
         "title": "ابزارک ها",
-        "description": "درآمد ۳۰ روز گذشته"
+        "subTitle": "درآمد ۳۰ روز گذشته",
+        "price": "۷۸,۲۴۰",
+        "description": "۳۰٪ از هفته گذشته"
     },
-    "TopProductCardWidget": {
-        "title": "صندلی آبی روشن",
+    "TopProductsWidget": {
+        "title": "ابزارک ها",
+        "subTitle": "درآمد ۳۰ روز گذشته",
+        "productTitle": "صندلی آبی روشن",
         "price": "$۲۴۰.۰۰",
         "totalPrice": "$۲۱۴۰.۰۰",
         "sales": "۳۴۵ فروش"
     },
+    "PolarAreaChartWidget": {
+        "title": "ابزارک ها",
+        "subTitle": "درآمد ۳۰ روز گذشته"
+    },
+
 
 
 

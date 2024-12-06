@@ -13,10 +13,10 @@ export default async function HomePage({ params }) {
   }
 
   return (
-    <section className='p-5 space-y-5'>
+    <div className='p-5 space-y-5'>
       <FirstRow />
       <SecondRow />
       <ThirdRow />
-    </section>
+    </div>
   );
 }

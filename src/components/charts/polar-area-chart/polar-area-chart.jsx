@@ -1,9 +1,8 @@
 'use client'
 
 import { useRef, useEffect } from "react";
-import ApexCharts from 'apexcharts';
-import WidgetType2 from "../widgets/widget-type-2";
 import { useTranslations, useLocale } from 'next-intl';
+import ApexCharts from 'apexcharts';
 
 export default function PolarAreaChart() {
     const chartRef = useRef(null);
@@ -14,7 +13,7 @@ export default function PolarAreaChart() {
         var options = {
             series: [42, 47, 52, 58, 65],
             chart: {
-                height: 458,
+                height: 450,
                 type: 'polarArea'
             },
             labels: [t('a'), t('b'), t('c'), t('d'), t('e')],
@@ -70,12 +69,6 @@ export default function PolarAreaChart() {
 
     }, []);
 
-    return (
-        <div className="bg-boxes p-5 rounded-lg">
-            <div>
-                <WidgetType2 />
-            </div>
-            <div id="basic-column-chart" ref={chartRef}></div>
-        </div>
-    );
+    return <div id="basic-column-chart" ref={chartRef}></div>
+
 }

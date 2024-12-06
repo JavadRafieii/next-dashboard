@@ -1,10 +1,8 @@
 'use client'
 
 import { useRef, useEffect } from "react";
-import ApexCharts from 'apexcharts';
 import { useTranslations, useLocale } from 'next-intl';
-import WidgetType1 from "../widgets/widget-type-1";
-import WidgetType2 from "../widgets/widget-type-2";
+import ApexCharts from 'apexcharts';
 
 
 export default function BasicColumnChart() {
@@ -107,23 +105,5 @@ export default function BasicColumnChart() {
 
     }, [])
 
-    return (
-        <div className="bg-boxes p-5 rounded-lg">
-            <div className="mb-5">
-                <WidgetType2 />
-            </div>
-            <div className="grid grid-cols-3 gap-3">
-                <div>
-                    <WidgetType1 />
-                </div>
-                <div>
-                    <WidgetType1 />
-                </div>
-                <div>
-                    <WidgetType1 />
-                </div>
-            </div>
-            <div id="basic-column-chart" ref={chartRef}></div>
-        </div>
-    );
+    return <div id="basic-column-chart" ref={chartRef}></div>
 }

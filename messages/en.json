@@ -29,25 +29,34 @@
     "StandingMenu": {
         "title": "Dashboard",
         "firstPage": "eCommerce",
+        "secondPage": "Widgets",
         "comingSoon": "Coming Soon..."
     },
 
 
 
-    "WidgetType1": {
+    "LineChartWidget": {
         "title": "Widgets",
         "price": "78,240",
         "description": "Since last week"
     },
-    "WidgetType2": {
+    "BasicColumnChartWidget": {
         "title": "Widgets",
-        "description": "in last 30 days revenue"
+        "subTitle": "in last 30 days revenue",
+        "price": "78,240",
+        "description": "30% Since last week"
     },
-    "TopProductCardWidget": {
-        "title": "Light Blue Chair",
+    "TopProductsWidget": {
+        "title": "Widgets",
+        "subTitle": "in last 30 days revenue",
+        "productTitle": "Light Blue Chair",
         "price": "$240.00",
         "totalPrice": "$2140.00",
         "sales": "345 Sales"
+    },
+    "PolarAreaChartWidget": {
+        "title": "Widgets",
+        "subTitle": "in last 30 days revenue"
     },
 
 

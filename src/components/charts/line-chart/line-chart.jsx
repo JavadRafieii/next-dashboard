@@ -1,10 +1,8 @@
 'use client'
 
 import React, { useEffect, useRef } from 'react';
-import ApexCharts from 'apexcharts';
 import { useLocale, useTranslations } from 'next-intl';
-import WidgetType1 from '../widgets/widget-type-1';
-import WidgetType3 from '../widgets/widget-type-3';
+import ApexCharts from 'apexcharts';
 
 export default function LineChart() {
     const locale = useLocale();
@@ -13,14 +11,6 @@ export default function LineChart() {
 
     useEffect(() => {
         const options = {
-            // title: {
-            //     text: "Custom Line Chart",
-            //     align: "center",
-            //     style: {
-            //         fontSize: "18px",
-            //         color: "#FFFFFF",
-            //     },
-            // },
             series: [{
                 name: t('name'),
                 data: [10, -50, 55, -10, 32, -45, 50, -50, 100]
@@ -126,13 +116,5 @@ export default function LineChart() {
         };
     }, []);
 
-    return (
-        <div className='bg-boxes p-5 pb-0 rounded-lg'>
-            <div className='flex items-center justify-between'>
-                <WidgetType1 />
-                <WidgetType3 />
-            </div>
-            <div id="chart" ref={chartRef}></div>
-        </div>
-    );
+    return <div id="chart" ref={chartRef}></div>
 };
