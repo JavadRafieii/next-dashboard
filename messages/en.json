@@ -58,6 +58,13 @@
         "title": "Widgets",
         "subTitle": "in last 30 days revenue"
     },
+    "NewCustomersWidget": {
+        "title": "New Customers",
+        "user": "Javad Rafiei"
+    },
+
+
+
 
 
     "LineChart": {
