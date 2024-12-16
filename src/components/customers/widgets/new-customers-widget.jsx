@@ -16,7 +16,7 @@ export default function NewCustomersWidget() {
             </div>
             <ul className="divide-y divide-line">
                 {Array.from({ length: 7 }).map((_, index) => (
-                    <li className="flex items-center justify-between p-2 cursor-pointer hover:rounded-lg transition-all hover:bg-light-boxes hover:-translate-y-1">
+                    <li key={index} className="flex items-center justify-between p-2 cursor-pointer hover:rounded-lg transition-all hover:bg-light-boxes hover:-translate-y-1">
                         <div className="flex items-center gap-x-3">
                             <div className="size-12 rounded-full relative overflow-hidden">
                                 <Image
