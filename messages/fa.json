@@ -46,6 +46,12 @@
         "price": "۷۸,۲۴۰",
         "description": "۳۰٪ از هفته گذشته"
     },
+    "SingleBasicColumnChartWidget": {
+        "title": "ابزارک ها",
+        "subTitle": "درآمد ۳۰ روز گذشته",
+        "price": "۷۸,۲۴۰",
+        "description": "۳۰٪ از هفته گذشته"
+    },
     "TopProductsWidget": {
         "title": "ابزارک ها",
         "subTitle": "درآمد ۳۰ روز گذشته",
@@ -73,6 +79,13 @@
         "nameOne": "ستون ۱",
         "nameTwo": "ستون ۲",
         "nameThree": "ستون ۳",
+        "subTitle": "زیرنویس",
+        "title": "عنوان نمودار",
+        "price": "۲۴,۰۰۰",
+        "description": "از هفته گذشته"
+    },
+    "SingleBasicColumnChart": {
+        "nameOne": "ستون ۱",
         "subTitle": "زیرنویس",
         "title": "عنوان نمودار",
         "price": "۲۴,۰۰۰",

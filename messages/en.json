@@ -46,6 +46,12 @@
         "price": "78,240",
         "description": "30% Since last week"
     },
+    "SingleBasicColumnChartWidget": {
+        "title": "Widgets",
+        "subTitle": "in last 30 days revenue",
+        "price": "78,240",
+        "description": "30% Since last week"
+    },
     "TopProductsWidget": {
         "title": "Widgets",
         "subTitle": "in last 30 days revenue",
@@ -74,6 +80,13 @@
         "nameOne": "Column 1",
         "nameTwo": "Column 2",
         "nameThree": "Column 3",
+        "subTitle": "Subtitle",
+        "title": "Title Chart",
+        "price": "24,000",
+        "description": "Since last week"
+    },
+    "SingleBasicColumnChart": {
+        "nameOne": "Column 1",
         "subTitle": "Subtitle",
         "title": "Title Chart",
         "price": "24,000",

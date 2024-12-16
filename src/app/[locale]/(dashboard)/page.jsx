@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation';
 import FirstRow from './components/e-commerce/first-row/first-row';
 import SecondRow from './components/e-commerce/second-row/second-row';
 import ThirdRow from './components/e-commerce/third-row/third-row';
+import FourthRow from './components/e-commerce/fourth-row/fourth-row';
 
 export default async function HomePage({ params }) {
   const { locale } = await params;
@@ -17,6 +18,7 @@ export default async function HomePage({ params }) {
       <FirstRow />
       <SecondRow />
       <ThirdRow />
+      <FourthRow />
     </div>
   );
 }
